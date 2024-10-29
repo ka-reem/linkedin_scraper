@@ -6,7 +6,7 @@ driver = webdriver.Chrome()
 
 # Login to LinkedIn first (required for most scraping)
 email = "fopofa2394@nestvia.com"
-password = "acmbuilds"
+password = "put your password here"
 actions.login(driver, email, password)
 
 # Now you can scrape a profile
